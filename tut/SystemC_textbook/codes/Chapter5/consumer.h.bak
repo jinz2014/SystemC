@@ -1,0 +1,64 @@
+//
+// consumer.h :: consumer module
+//
+#ifndef SYSTEMC_H
+#include "systemc.h"
+#endif
+#ifndef SC_XCOM_H
+#include "sc_xcom.h"
+#endif
+SC_MODULE(consumer){
+// declare ports
+sc_in<int> empty;
+sc_inmaster<int> Cin;
+sc_in_clk clk;
+// Internal variable
+int x;
+// inmaster process
+void consumerFunc(){
+while (true){
+x = Cin;
+wait(); // wait for pos_edge clk
+}
+}
+SC_CTOR(consumer){
+SC_THREAD(consumerFunc);
+sensitive_pos << clk;
+}
+};
+//
+// top.cc : contains sc_main ; Instantiates FIFO design
+//
+#ifndef SYSTEMC_H
+#include "systemc.h"
+#endif
+#ifndef SC_XCOM_H
+#include "sc_xcom.h"
+#endif
+#include "consumer.h"
+#include "producer.h"
+#include "fifo.h"
+#ifndef BUFFER_H
+#include "buffer.h"
+#endif
+int sc_main(int ac, char *av[] ){
+// declare channels/signals
+sc_link_mp<int> BW;
+sc_link_mp<int> BR;
+// create clocks with diff frequencies
+sc_clock clock1 ("Clock1", 5, 0.5, 0.3,true);
+sc_clock clock2 ("Clock2", 40, 0.5, 0.1,true);
+// instantiate all blocks and connect to channels, signals
+producer p1("Master");
+fifo f1("fifo");
+consumer c1("Slave");
+p1.Pout(BW);
+p1.clk(clock1);
+f1.Pwrite(BW);
+f1.Pread(BR);
+c1.Cin(BR);
+c1.clk(clock2);
+sc_start(100);
+// return zero if no error
+return 0;
+}

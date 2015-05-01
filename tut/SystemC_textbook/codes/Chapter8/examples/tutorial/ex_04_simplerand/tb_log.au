@@ -1,0 +1,13 @@
+%%REG: Random value for addr  = 98
+%%REG: Random value for data:
+%%REG:   {
+%%REG:     field:38
+%%REG:     payload {
+%%REG:       [0]:443
+%%REG:       [1]:73
+%%REG:       [2]:74
+%%REG:       [3]:366
+%%REG:       [4]:186
+%%REG:     }
+%%REG:     state:STATE_2
+%%REG:   }

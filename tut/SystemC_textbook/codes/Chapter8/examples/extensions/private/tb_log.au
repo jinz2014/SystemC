@@ -1,0 +1,8 @@
+%%REG: 
+%%REG: Packet values after randomization:
+%%REG: p1:   src: 36831  dest:  7162  priority:   1  payload: 17945
+%%REG: p2:   src:     0  dest:     0  priority:  13  payload: 31750
+%%REG: 
+%%REG: Packet values after randomization using rand:
+%%REG: p1:   src: 25631  dest: 18587  priority:   0  payload: 21766
+%%REG: p2:   src: 13413  dest: 11494  priority:   7  payload:  2051

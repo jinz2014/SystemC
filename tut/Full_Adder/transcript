@@ -1,0 +1,43 @@
+# do run.do 
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	sc_main
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim work.sc_main 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /share/jinz/Modelsim_examples/tut/full_adder/SC_Primer/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/full_adder/SC_Primer/work.sc_main
+# At time0 s (x,y,carray_in): 000(sum,carray_out): 00
+# At time5 ns (x,y,carray_in): 100(sum,carray_out): 00
+# At time10 ns (x,y,carray_in): 010(sum,carray_out): 01
+# At time15 ns (x,y,carray_in): 110(sum,carray_out): 01
+# At time20 ns (x,y,carray_in): 001(sum,carray_out): 01
+# At time25 ns (x,y,carray_in): 101(sum,carray_out): 01
+# At time30 ns (x,y,carray_in): 011(sum,carray_out): 01
+# At time35 ns (x,y,carray_in): 111(sum,carray_out): 01
+# At time40 ns (x,y,carray_in): 000(sum,carray_out): 10
+# At time45 ns (x,y,carray_in): 100(sum,carray_out): 00
+# At time50 ns (x,y,carray_in): 010(sum,carray_out): 01
+# At time55 ns (x,y,carray_in): 110(sum,carray_out): 01
+# At time60 ns (x,y,carray_in): 001(sum,carray_out): 01
+# At time65 ns (x,y,carray_in): 101(sum,carray_out): 01
+# At time70 ns (x,y,carray_in): 011(sum,carray_out): 01
+# At time75 ns (x,y,carray_in): 111(sum,carray_out): 01
+# At time80 ns (x,y,carray_in): 000(sum,carray_out): 10
+# At time85 ns (x,y,carray_in): 100(sum,carray_out): 00
+# At time90 ns (x,y,carray_in): 010(sum,carray_out): 01
+# At time95 ns (x,y,carray_in): 110(sum,carray_out): 01
+# At time100 ns (x,y,carray_in): 001(sum,carray_out): 01

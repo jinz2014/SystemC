@@ -1,0 +1,83 @@
+# do run.do 
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	sc_main
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim work.sc_main 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /share/jinz/Modelsim_examples/tut/SystemC_textbook/codes/Chapter4/4_4_5_1 mutexportlessexample/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/SystemC_textbook/codes/Chapter4/4_4_5_1 mutexportlessexample/work.sc_main
+# 0 s reader detects that data changed to 0
+# 10 ns data is written by writer2, data is 0
+# 10 ns data is written by writer1, data is 0
+# 10 ns reader detects that data changed to 846930886
+# 20 ns data is written by writer2, data is 846930886
+# 20 ns data is written by writer1, data is 846930886
+# 20 ns reader detects that data changed to 1714636915
+# 30 ns data is written by writer2, data is 1714636915
+# 30 ns data is written by writer1, data is 1714636915
+# 30 ns reader detects that data changed to 424238335
+# 40 ns data is written by writer2, data is 424238335
+# 40 ns data is written by writer1, data is 424238335
+# 40 ns reader detects that data changed to 1649760492
+# 50 ns data is written by writer2, data is 1649760492
+# 50 ns data is written by writer1, data is 1649760492
+# 50 ns reader detects that data changed to 1189641421
+# 60 ns data is written by writer2, data is 1189641421
+# 60 ns data is written by writer1, data is 1189641421
+# 60 ns reader detects that data changed to 1350490027
+# 70 ns data is written by writer2, data is 1350490027
+# 70 ns data is written by writer1, data is 1350490027
+# 70 ns reader detects that data changed to 1102520059
+# 80 ns data is written by writer2, data is 1102520059
+# 80 ns data is written by writer1, data is 1102520059
+# 80 ns reader detects that data changed to 1967513926
+# 90 ns data is written by writer2, data is 1967513926
+# 90 ns data is written by writer1, data is 1967513926
+# 90 ns reader detects that data changed to 1540383426
+# 100 ns data is written by writer2, data is 1540383426
+# 100 ns data is written by writer1, data is 1540383426
+# 100 ns reader detects that data changed to 1303455736
+# 110 ns data is written by writer2, data is 1303455736
+# 110 ns data is written by writer1, data is 1303455736
+# 110 ns reader detects that data changed to 521595368
+# 120 ns data is written by writer2, data is 521595368
+# 120 ns data is written by writer1, data is 521595368
+# 120 ns reader detects that data changed to 1726956429
+# 130 ns data is written by writer2, data is 1726956429
+# 130 ns data is written by writer1, data is 1726956429
+# 130 ns reader detects that data changed to 861021530
+# 140 ns data is written by writer2, data is 861021530
+# 140 ns data is written by writer1, data is 861021530
+# 140 ns reader detects that data changed to 233665123
+# 150 ns data is written by writer2, data is 233665123
+# 150 ns data is written by writer1, data is 233665123
+# 150 ns reader detects that data changed to 468703135
+# 160 ns data is written by writer2, data is 468703135
+# 160 ns data is written by writer1, data is 468703135
+# 160 ns reader detects that data changed to 1801979802
+# 170 ns data is written by writer2, data is 1801979802
+# 170 ns data is written by writer1, data is 1801979802
+# 170 ns reader detects that data changed to 635723058
+# 180 ns data is written by writer2, data is 635723058
+# 180 ns data is written by writer1, data is 635723058
+# 180 ns reader detects that data changed to 1125898167
+# 190 ns data is written by writer2, data is 1125898167
+# 190 ns data is written by writer1, data is 1125898167
+# 190 ns reader detects that data changed to 2089018456
+# 200 ns data is written by writer2, data is 2089018456
+# 200 ns data is written by writer1, data is 2089018456
+# 200 ns reader detects that data changed to 1656478042

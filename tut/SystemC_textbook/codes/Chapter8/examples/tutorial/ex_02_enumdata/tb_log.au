@@ -1,0 +1,6 @@
+%%REG: Printing data in object state_data
+%%REG: {
+%%REG:   state:STATE_3
+%%REG:   delay:2
+%%REG:   data:170
+%%REG: }

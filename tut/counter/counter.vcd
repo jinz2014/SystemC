@@ -1,0 +1,294 @@
+$date
+     Dec 29, 2011       23:55:10
+$end
+
+$version
+              SystemC 2.2.0 --- May 21 2010 20:45:53
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clock       $end
+$var wire    1  aab  reset       $end
+$var wire    1  aac  enable       $end
+$var wire    4  aad  count [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 1e-09 sec = 1 timescale units.
+$end
+
+$dumpvars
+0aaa
+0aab
+0aac
+b0 aad
+$end
+
+#2
+1aaa
+
+#3
+0aaa
+
+#4
+1aaa
+
+#5
+0aaa
+
+#6
+1aaa
+
+#7
+0aaa
+
+#8
+1aaa
+
+#9
+0aaa
+
+#10
+1aaa
+
+#11
+0aaa
+1aab
+
+#12
+1aaa
+
+#13
+0aaa
+
+#14
+1aaa
+
+#15
+0aaa
+
+#16
+1aaa
+
+#17
+0aaa
+
+#18
+1aaa
+
+#19
+0aaa
+
+#20
+1aaa
+
+#21
+0aaa
+
+#22
+1aaa
+
+#23
+0aaa
+
+#24
+1aaa
+
+#25
+0aaa
+
+#26
+1aaa
+
+#27
+0aaa
+
+#28
+1aaa
+
+#29
+0aaa
+
+#30
+1aaa
+
+#31
+0aaa
+0aab
+
+#32
+1aaa
+
+#33
+0aaa
+
+#34
+1aaa
+
+#35
+0aaa
+
+#36
+1aaa
+
+#37
+0aaa
+
+#38
+1aaa
+
+#39
+0aaa
+
+#40
+1aaa
+
+#41
+0aaa
+1aac
+
+#42
+1aaa
+b1 aad
+
+#43
+0aaa
+
+#44
+1aaa
+b10 aad
+
+#45
+0aaa
+
+#46
+1aaa
+b11 aad
+
+#47
+0aaa
+
+#48
+1aaa
+b100 aad
+
+#49
+0aaa
+
+#50
+1aaa
+b101 aad
+
+#51
+0aaa
+
+#52
+1aaa
+b110 aad
+
+#53
+0aaa
+
+#54
+1aaa
+b111 aad
+
+#55
+0aaa
+
+#56
+1aaa
+b1000 aad
+
+#57
+0aaa
+
+#58
+1aaa
+b1001 aad
+
+#59
+0aaa
+
+#60
+1aaa
+b1010 aad
+
+#61
+0aaa
+
+#62
+1aaa
+b1011 aad
+
+#63
+0aaa
+
+#64
+1aaa
+b1100 aad
+
+#65
+0aaa
+
+#66
+1aaa
+b1101 aad
+
+#67
+0aaa
+
+#68
+1aaa
+b1110 aad
+
+#69
+0aaa
+
+#70
+1aaa
+b1111 aad
+
+#71
+0aaa
+
+#72
+1aaa
+b0 aad
+
+#73
+0aaa
+
+#74
+1aaa
+b1 aad
+
+#75
+0aaa
+
+#76
+1aaa
+b10 aad
+
+#77
+0aaa
+
+#78
+1aaa
+b11 aad
+
+#79
+0aaa
+
+#80
+1aaa
+b100 aad
+
+#81
+0aac
+

@@ -1,0 +1,45 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do run.do 
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	sc_main
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim work.sc_main 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading /share/jinz/Modelsim_examples/tut/full_adder/Detector/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/full_adder/Detector/work.sc_main
+add wave \
+{sim:/sc_main/simple_101_detector/port_0 } \
+{sim:/sc_main/simple_101_detector/port_1 } \
+{sim:/sc_main/simple_101_detector/port_2 } \
+{sim:/sc_main/simple_101_detector/signal_0 } \
+{sim:/sc_main/simple_101_detector/signal_1 } \
+{sim:/sc_main/simple_101_detector/signal_2 } 
+run
+# At time 0 s input data: 0 101 detected: 0
+# At time 5 ns input data: 1 101 detected: 0
+# At time 15 ns input data: 0 101 detected: 0
+# At time 25 ns input data: 1 101 detected: 0
+# At time 65 ns input data: 0 101 detected: 0
+# At time 85 ns input data: 1 101 detected: 0
+# Please wait, starting the C debugger... 
+# 0xffffe410 in ?? () 
+# Attached to vsim PID 5902 
+# The C debugger has started 
+# 0xffffe410 in ?? () at ??::?? 
+# Process "sim:/sc_main/sc_main" is either not suspended or not started yet. 
+# Error opening /share/jinz/Modelsim_examples/tut/full_adder/Detector/<NULL>
+# Path name '/share/jinz/Modelsim_examples/tut/full_adder/Detector/<NULL>' doesn't exist.
+quit

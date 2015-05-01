@@ -1,0 +1,19 @@
+// file: shifter8.h
+#include "systemc.h"
+#include "parameter.h"
+
+SC_MODULE(shifter8) {
+  sc_in<sc_bv<WORD> > din;
+  sc_in<bool>         clk;
+  sc_in<bool>         load;
+  sc_in<bool>         LR;
+  sc_inout<sc_bv<WORD> > dout;
+
+  void prc_shifter();
+
+  SC_CTOR(shifter8) {
+    SC_METHOD(prc_shifter);
+    sensitive_pos << clk;
+  }
+};
+

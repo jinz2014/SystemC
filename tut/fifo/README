@@ -1,0 +1,5 @@
+Use sc_fifo methods: 
+void read(T &)
+void write(const T &)
+int num_free() const
+int num_available() const

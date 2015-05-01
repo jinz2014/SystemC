@@ -1,0 +1,7 @@
+mistakes:
+
+1. module input/output confused (driver or monitor)
+2. module name mismatch with the name for instance 
+3. sensitive lists missing
+4. top level: int sc_main(.., ..) instead of SC_MODULE sc_main...
+5. destructor required ?

@@ -1,0 +1,31 @@
+# do run.do 
+# Model Technology ModelSim SE vcom <VERSION> Compiler <DATE>
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity control
+# -- Compiling architecture rtl of control
+# -- Compiling entity retrieve
+# -- Compiling architecture rtl of retrieve
+# -- Compiling entity ringbuf
+# -- Compiling architecture rtl of ringbuf
+# -- Compiling entity store
+# -- Compiling architecture rtl of store
+# Model Technology ModelSim SE sccom <VERSION> compiler <DATE>
+# 
+# Exported modules:
+# 	test_ringbuf
+# Model Technology ModelSim SE sccom <VERSION> compiler <DATE>
+# vsim -novopt test_ringbuf 
+# Loading work/systemc.so
+# Loading work.test_ringbuf
+# Loading <MTI_HOME>/<PLATFORM>/../std.standard
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_1164(body)
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_arith(body)
+# Loading work.ringbuf(rtl)
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_unsigned(body)
+# Loading work.store(rtl)
+# Loading work.control(rtl)
+# Loading work.retrieve(rtl)
+# 1

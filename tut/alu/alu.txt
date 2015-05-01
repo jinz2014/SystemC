@@ -1,0 +1,9 @@
+Descriptions
+
+ALU operations
+
+two signed inptus
+add
+nand
+greater than
+xor

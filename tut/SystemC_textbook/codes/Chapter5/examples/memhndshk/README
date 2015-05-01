@@ -1,0 +1,8 @@
+This testcase  exercises the concepts of MemHndshake.
+
+The process master is sensitive to clk, and has wait(). 
+
+The slave_processes are sensitive to slave_port.
+
+Cycle accurate abstraction Uses SC_THREAD with wait() to 
+synchronize protocol communication.

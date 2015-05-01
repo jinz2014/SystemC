@@ -1,0 +1,12 @@
+%%REG: Random value for data:
+%%REG: {
+%%REG:   field:38
+%%REG:   payload {
+%%REG:     [0]:0
+%%REG:     [1]:2573112763
+%%REG:     [2]:4
+%%REG:     [3]:2331555913
+%%REG:     [4]:16
+%%REG:   }
+%%REG:   state:STATE_0
+%%REG: }

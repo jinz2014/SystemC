@@ -1,0 +1,51 @@
+# do run.do 
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module test_shifter8
+# 
+# Top level modules:
+# 	test_shifter8
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	shifter8
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim -novopt test_shifter8 
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.test_shifter8
+# Loading /share/jinz/Modelsim_examples/tut/shifter/shifter8/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/shifter/shifter8/work.shifter8
+# @                   0 din = xxxxxxxx load = 0 LR = 0 dout = 00000000
+# @                 100 din = 00100100 load = 1 LR = 0 dout = 00000000
+# @                 105 din = 00100100 load = 1 LR = 0 dout = 00100100
+# @                 110 din = 00100100 load = 0 LR = 0 dout = 00100100
+# @                 115 din = 00100100 load = 0 LR = 0 dout = 01001000
+# @                 120 din = 00100100 load = 0 LR = 1 dout = 01001000
+# @                 125 din = 00100100 load = 0 LR = 1 dout = 00100100
+# @                 135 din = 00100100 load = 0 LR = 1 dout = 00010010
+# @                 145 din = 00100100 load = 0 LR = 1 dout = 00001001
+# @                 155 din = 00100100 load = 0 LR = 1 dout = 00000100
+# @                 165 din = 00100100 load = 0 LR = 1 dout = 00000010
+# @                 175 din = 00100100 load = 0 LR = 1 dout = 00000001
+# @                 180 din = 00100100 load = 0 LR = 0 dout = 00000001
+# @                 185 din = 00100100 load = 0 LR = 0 dout = 00000010
+# @                 190 din = 00100100 load = 0 LR = 1 dout = 00000010
+# @                 195 din = 00100100 load = 0 LR = 1 dout = 00000001
+# @                 205 din = 00100100 load = 0 LR = 1 dout = 00000000
+# @                 210 din = 00100100 load = 0 LR = 0 dout = 00000000
+# @                 220 din = 00100100 load = 0 LR = 1 dout = 00000000
+# @                 240 din = 00100100 load = 0 LR = 0 dout = 00000000
+# @                 250 din = 00100100 load = 0 LR = 1 dout = 00000000
+# @                 260 din = 00100100 load = 0 LR = 0 dout = 00000000
+# @                 270 din = 00100100 load = 0 LR = 1 dout = 00000000

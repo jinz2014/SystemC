@@ -1,0 +1,60 @@
+# do run.do 
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is jinz@tachyon.cse.sc.edu.
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	sc_main
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim work.sc_main 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 0
+#           Attempting to use alternate WLF file "./wlftQCA53w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftQCA53w
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /share/jinz/Modelsim_examples/tut/shifter/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/shifter/work.sc_main
+# At time 0 s::(data_in, num_bits): 0 0(data_out) : 0
+# At time 5 ns::(data_in, num_bits): 1 1(data_out) : 0
+# At time 10 ns::(data_in, num_bits): 2 2(data_out) : 0
+# At time 15 ns::(data_in, num_bits): 3 3(data_out) : 0
+# At time 20 ns::(data_in, num_bits): 4 4(data_out) : 0
+# At time 25 ns::(data_in, num_bits): 5 5(data_out) : 0
+# At time 30 ns::(data_in, num_bits): 6 6(data_out) : 0
+# At time 35 ns::(data_in, num_bits): 7 7(data_out) : 0
+# At time 40 ns::(data_in, num_bits): 8 0(data_out) : 0
+# At time 40 ns::(data_in, num_bits): 8 0(data_out) : 8
+# At time 45 ns::(data_in, num_bits): 9 1(data_out) : 8
+# At time 45 ns::(data_in, num_bits): 9 1(data_out) : 4
+# At time 50 ns::(data_in, num_bits): 10 2(data_out) : 4
+# At time 50 ns::(data_in, num_bits): 10 2(data_out) : 2
+# At time 55 ns::(data_in, num_bits): 11 3(data_out) : 2
+# At time 55 ns::(data_in, num_bits): 11 3(data_out) : 1
+# At time 60 ns::(data_in, num_bits): 12 4(data_out) : 1
+# At time 60 ns::(data_in, num_bits): 12 4(data_out) : 0
+# At time 65 ns::(data_in, num_bits): 13 5(data_out) : 0
+# At time 70 ns::(data_in, num_bits): 14 6(data_out) : 0
+# At time 75 ns::(data_in, num_bits): 15 7(data_out) : 0
+# At time 80 ns::(data_in, num_bits): 16 0(data_out) : 0
+# At time 80 ns::(data_in, num_bits): 16 0(data_out) : 16
+# At time 85 ns::(data_in, num_bits): 17 1(data_out) : 16
+# At time 85 ns::(data_in, num_bits): 17 1(data_out) : 8
+# At time 90 ns::(data_in, num_bits): 18 2(data_out) : 8
+# At time 90 ns::(data_in, num_bits): 18 2(data_out) : 4
+# At time 95 ns::(data_in, num_bits): 19 3(data_out) : 4
+# At time 95 ns::(data_in, num_bits): 19 3(data_out) : 2
+# At time 100 ns::(data_in, num_bits): 20 4(data_out) : 2
+# At time 100 ns::(data_in, num_bits): 20 4(data_out) : 1

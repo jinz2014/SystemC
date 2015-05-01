@@ -1,0 +1,63 @@
+# Current time Fri Jul 22 21:49:32 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6b"
+# Version = "2010.05"
+# Date = "May 21 2010"
+# Platform = linux
+# --> START OF USERCODE
+# 0    0xf61729ab: '_dynamic_cast + 0x2b' in '/usr/local/3rdparty/mentor/modelsim661/modeltech/gcc-4.3.3-linux/lib/libstdc++.so.6'
+# 1    0xf624f731: 'sc_core::sc_object::mti_delete_name() + 0x71' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 2    0xf624f99b: 'sc_core::sc_object::~sc_object() + 0x2b' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 3    0xf6251d38: 'sc_core::sc_process_b::~sc_process_b() + 0x248' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 4    0xf6259f91: 'sc_core::sc_thread_process::~sc_thread_process() + 0x81' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 5    0xf6250f70: 'sc_core::sc_process_b::kill_process() + 0x120' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 6    0xf625a453: 'sc_core::sc_thread_process::kill_process() + 0xf3' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 7    0xf625a20b: 'sc_core::sc_thread_cor_fn(void*) + 0x5b' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 8    0xf6275bdf: 'sc_cor_qt_wrapper + 0x1f' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 9    0xf6276de8: 'qt_null + 0x0' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# End of Stack Trace
+
+
+# Current time Fri Jul 22 21:54:07 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6b"
+# Version = "2010.05"
+# Date = "May 21 2010"
+# Platform = linux
+# --> START OF USERCODE
+# 0    0xf61689ab: '_dynamic_cast + 0x2b' in '/usr/local/3rdparty/mentor/modelsim661/modeltech/gcc-4.3.3-linux/lib/libstdc++.so.6'
+# 1    0xf6245731: 'sc_core::sc_object::mti_delete_name() + 0x71' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 2    0xf624599b: 'sc_core::sc_object::~sc_object() + 0x2b' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 3    0xf6247d38: 'sc_core::sc_process_b::~sc_process_b() + 0x248' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 4    0xf624ff91: 'sc_core::sc_thread_process::~sc_thread_process() + 0x81' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 5    0xf6246f70: 'sc_core::sc_process_b::kill_process() + 0x120' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 6    0xf6250453: 'sc_core::sc_thread_process::kill_process() + 0xf3' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 7    0xf625020b: 'sc_core::sc_thread_cor_fn(void*) + 0x5b' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 8    0xf626bbdf: 'sc_cor_qt_wrapper + 0x1f' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 9    0xf626cde8: 'qt_null + 0x0' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# End of Stack Trace
+
+
+# Current time Fri Jul 22 23:58:04 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.6b"
+# Version = "2010.05"
+# Date = "May 21 2010"
+# Platform = linux
+# --> START OF USERCODE
+# 0    0xf61929ab: '_dynamic_cast + 0x2b' in '/usr/local/3rdparty/mentor/modelsim661/modeltech/gcc-4.3.3-linux/lib/libstdc++.so.6'
+# 1    0xf626f731: 'sc_core::sc_object::mti_delete_name() + 0x71' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 2    0xf626f99b: 'sc_core::sc_object::~sc_object() + 0x2b' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 3    0xf6271d38: 'sc_core::sc_process_b::~sc_process_b() + 0x248' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 4    0xf6279f91: 'sc_core::sc_thread_process::~sc_thread_process() + 0x81' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 5    0xf6270f70: 'sc_core::sc_process_b::kill_process() + 0x120' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 6    0xf627a453: 'sc_core::sc_thread_process::kill_process() + 0xf3' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 7    0xf627a20b: 'sc_core::sc_thread_cor_fn(void*) + 0x5b' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 8    0xf6295bdf: 'sc_cor_qt_wrapper + 0x1f' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# 9    0xf6296de8: 'qt_null + 0x0' in '/share/jinz/Modelsim_examples/tut/or_gate/work/_sc/linux_gcc-4.3.3/systemc.so'
+# End of Stack Trace
+
+

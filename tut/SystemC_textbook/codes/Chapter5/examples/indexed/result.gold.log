@@ -1,0 +1,59 @@
+
+        SystemC 2.0 Beta-1 --- Aug 24 2001 18:32:10
+                   ALL RIGHTS RESERVED
+          Copyright (c) 1996-2001, Synopsys, Inc.,
+      CoWare, Inc., Frontier Design, Inc. and others.
+ obtained 0 from master, index = 0
+after incrementing value=2
+ obtained 1 from master, index = 1
+after incrementing value=3
+ obtained 2 from master, index = 2
+after incrementing value=4
+ obtained 3 from master, index = 3
+after incrementing value=5
+ obtained 4 from master, index = 4
+after incrementing value=6
+ obtained 5 from master, index = 5
+after incrementing value=7
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_7'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+ obtained 6 from master, index = 6
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_17'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+after incrementing value=8
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_8'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+ obtained 7 from master, index = 7
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_18'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+after incrementing value=9
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_9'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+ obtained 8 from master, index = 8
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_19'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+after incrementing value=10
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_10'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+ obtained 9 from master, index = 9
+
+WARNING: (E0) unknown error : index out of range: port `Master.port_20'
+ - ../../include/systemc/master_slave/sc_indexed_port_if.h: 71
+after incrementing value=11
+ obtained 10 from master, index = 0
+after incrementing value=12
+ obtained 11 from master, index = 1
+after incrementing value=13
+ obtained 12 from master, index = 2
+after incrementing value=14
+ obtained 13 from master, index = 3
+after incrementing value=15
+ obtained 14 from master, index = 4
+after incrementing value=16

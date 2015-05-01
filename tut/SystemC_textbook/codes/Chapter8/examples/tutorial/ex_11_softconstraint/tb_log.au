@@ -1,0 +1,20 @@
+%%REG: addr.row = 24
+%%REG: addr.col = 25
+%%REG: 
+%%REG: 
+%%REG: *** SCV_WARNING: CONSTRAINT_WARNING_IGNORE_SOFT_CONSTRAINT at time 0 s in process <main>
+%%REG:     Soft constraints for over-constrained  object 'addr' will be ignored. 
+%%REG: 
+%%REG: addr.row = 78
+%%REG: addr.col = 75
+%%REG: 
+%%REG: addr.row = 127
+%%REG: addr.col = 125
+%%REG: 
+%%REG: addr.row = 158
+%%REG: addr.col = 175
+%%REG: 
+%%REG: addr.row = 214
+%%REG: addr.col = 225
+%%REG: 
+%%REG: 

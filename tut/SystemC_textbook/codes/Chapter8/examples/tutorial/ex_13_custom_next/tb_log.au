@@ -1,0 +1,15 @@
+%%REG: addr =  0, Setting to 10
+%%REG: addr = 10, rval =  6
+%%REG: 
+%%REG: addr = 10, Setting to 30
+%%REG: addr = 30, rval = 26
+%%REG: 
+%%REG: addr = 30, Setting to 50
+%%REG: addr = 50, rval = 52
+%%REG: 
+%%REG: addr = 50, Setting to 70
+%%REG: addr = 70, rval = 72
+%%REG: 
+%%REG: addr = 70, Setting to 90
+%%REG: addr = 90, rval = 86
+%%REG: 

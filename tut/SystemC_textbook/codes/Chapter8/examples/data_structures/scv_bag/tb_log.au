@@ -1,0 +1,27 @@
+%%REG: myBagOfPackets has 11 entries and 506 elements
+%%REG: Printing one element from each entry, elements with the largest src have the
+%%REG: highest probability of printing first.
+%%REG:    src:  5  dest: 60134  length:  118  payload: 64689 .. 59856
+%%REG:    src:  7  dest: 16493  length:  430  payload:  3122 .. 31628
+%%REG:    src: 10  dest: 35784  length:  803  payload: 30077 .. 33223
+%%REG:    src:  9  dest: 26269  length:  541  payload: 45576 .. 14805
+%%REG:    src:  4  dest: 63681  length:  913  payload: 42417 .. 34158
+%%REG:    src:  8  dest: 26995  length:  530  payload: 23647 .. 29713
+%%REG:    src:  6  dest: 38350  length:  141  payload: 31555 .. 55717
+%%REG:    src:  1  dest: 25001  length: 1024  payload: 62129 .. 56105
+%%REG:    src:  3  dest: 22515  length:  525  payload: 64422 .. 28596
+%%REG:    src:  2  dest: 60946  length:   33  payload: 27530 ..  5366
+%%REG:    src:  0  dest:  7162  length:  201  payload: 26241 .. 43298
+%%REG: 
+%%REG: Selecting elements randomly, elements with the largest src have the
+%%REG: highest probability of printing first.
+%%REG:    src: 10  dest: 35784  length:  803  payload: 30077 .. 33223
+%%REG:    src:  1  dest: 25001  length: 1024  payload: 62129 .. 56105
+%%REG:    src:  7  dest: 16493  length:  430  payload:  3122 .. 31628
+%%REG:    src: 10  dest: 35784  length:  803  payload: 30077 .. 33223
+%%REG:    src:  7  dest: 16493  length:  430  payload:  3122 .. 31628
+%%REG:    src: 10  dest: 35784  length:  803  payload: 30077 .. 33223
+%%REG:    src:  8  dest: 26995  length:  530  payload: 23647 .. 29713
+%%REG:    src: 10  dest: 35784  length:  803  payload: 30077 .. 33223
+%%REG:    src:  2  dest: 60946  length:   33  payload: 27530 ..  5366
+%%REG:    src:  8  dest: 26995  length:  530  payload: 23647 .. 29713

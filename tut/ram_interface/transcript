@@ -1,0 +1,223 @@
+# do run.do 
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	sc_main
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim work.sc_main 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /share/jinz/Modelsim_examples/tut/ram_interface/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/ram_interface/work.sc_main
+# ** Warning: (vsim-4025) The port '/sc_main/testbench/bsm/port_1' is of an undebuggable type.
+# write address 0data 1804289383
+# read address 0data 1804289383
+# write address 1data 846930886
+# read address 1data 846930886
+# write address 2data 1681692777
+# read address 2data 1681692777
+# write address 3data 1714636915
+# read address 3data 1714636915
+# write address 4data 1957747793
+# read address 4data 1957747793
+# write address 5data 424238335
+# read address 5data 424238335
+# write address 6data 719885386
+# read address 6data 719885386
+# write address 7data 1649760492
+# read address 7data 1649760492
+# write address 8data 596516649
+# read address 8data 596516649
+# write address 9data 1189641421
+# read address 9data 1189641421
+# write address 10data 1025202362
+# read address 10data 1025202362
+# write address 11data 1350490027
+# read address 11data 1350490027
+# write address 12data 783368690
+# read address 12data 783368690
+# write address 13data 1102520059
+# read address 13data 1102520059
+# write address 14data 2044897763
+# read address 14data 2044897763
+# write address 15data 1967513926
+# read address 15data 1967513926
+# write address 16data 1365180540
+# read address 16data 1365180540
+# write address 17data 1540383426
+# read address 17data 1540383426
+# write address 18data 304089172
+# read address 18data 304089172
+# write address 19data 1303455736
+# read address 19data 1303455736
+# write address 20data 35005211
+# read address 20data 35005211
+# write address 21data 521595368
+# read address 21data 521595368
+# write address 22data 294702567
+# read address 22data 294702567
+# write address 23data 1726956429
+# read address 23data 1726956429
+# write address 24data 336465782
+# read address 24data 336465782
+# write address 25data 861021530
+# read address 25data 861021530
+# write address 26data 278722862
+# read address 26data 278722862
+# write address 27data 233665123
+# read address 27data 233665123
+# write address 28data 2145174067
+# read address 28data 2145174067
+# write address 29data 468703135
+# read address 29data 468703135
+# write address 30data 1101513929
+# read address 30data 1101513929
+# write address 31data 1801979802
+# read address 31data 1801979802
+# write address 32data 1315634022
+# read address 32data 1315634022
+# write address 33data 635723058
+# read address 33data 635723058
+# write address 34data 1369133069
+# read address 34data 1369133069
+# write address 35data 1125898167
+# read address 35data 1125898167
+# write address 36data 1059961393
+# read address 36data 1059961393
+# write address 37data 2089018456
+# read address 37data 2089018456
+# write address 38data 628175011
+# read address 38data 628175011
+# write address 39data 1656478042
+# read address 39data 1656478042
+# write address 40data 1131176229
+# read address 40data 1131176229
+# write address 41data 1653377373
+# read address 41data 1653377373
+# write address 42data 859484421
+# read address 42data 859484421
+# write address 43data 1914544919
+# read address 43data 1914544919
+# write address 44data 608413784
+# read address 44data 608413784
+# write address 45data 756898537
+# read address 45data 756898537
+# write address 46data 1734575198
+# read address 46data 1734575198
+# write address 47data 1973594324
+# read address 47data 1973594324
+# write address 48data 149798315
+# read address 48data 149798315
+# write address 49data 2038664370
+# read address 49data 2038664370
+# write address 50data 1129566413
+# read address 50data 1129566413
+# write address 51data 184803526
+# read address 51data 184803526
+# write address 52data 412776091
+# read address 52data 412776091
+# write address 53data 1424268980
+# read address 53data 1424268980
+# write address 54data 1911759956
+# read address 54data 1911759956
+# write address 55data 749241873
+# read address 55data 749241873
+# write address 56data 137806862
+# read address 56data 137806862
+# write address 57data 42999170
+# read address 57data 42999170
+# write address 58data 982906996
+# read address 58data 982906996
+# write address 59data 135497281
+# read address 59data 135497281
+# write address 60data 511702305
+# read address 60data 511702305
+# write address 61data 2084420925
+# read address 61data 2084420925
+# write address 62data 1937477084
+# read address 62data 1937477084
+# write address 63data 1827336327
+# read address 63data 1827336327
+# write address 64data 572660336
+# read address 64data 572660336
+# write address 65data 1159126505
+# read address 65data 1159126505
+# write address 66data 805750846
+# read address 66data 805750846
+# write address 67data 1632621729
+# read address 67data 1632621729
+# write address 68data 1100661313
+# read address 68data 1100661313
+# write address 69data 1433925857
+# read address 69data 1433925857
+# write address 70data 1141616124
+# read address 70data 1141616124
+# write address 71data 84353895
+# read address 71data 84353895
+# write address 72data 939819582
+# read address 72data 939819582
+# write address 73data 2001100545
+# read address 73data 2001100545
+# write address 74data 1998898814
+# read address 74data 1998898814
+# write address 75data 1548233367
+# read address 75data 1548233367
+# write address 76data 610515434
+# read address 76data 610515434
+# write address 77data 1585990364
+# read address 77data 1585990364
+# write address 78data 1374344043
+# read address 78data 1374344043
+# write address 79data 760313750
+# read address 79data 760313750
+# write address 80data 1477171087
+# read address 80data 1477171087
+# write address 81data 356426808
+# read address 81data 356426808
+# write address 82data 945117276
+# read address 82data 945117276
+# write address 83data 1889947178
+# read address 83data 1889947178
+# write address 84data 1780695788
+# read address 84data 1780695788
+# write address 85data 709393584
+# read address 85data 709393584
+# write address 86data 491705403
+# read address 86data 491705403
+# write address 87data 1918502651
+# read address 87data 1918502651
+# write address 88data 752392754
+# read address 88data 752392754
+# write address 89data 1474612399
+# read address 89data 1474612399
+# write address 90data 2053999932
+# read address 90data 2053999932
+# write address 91data 1264095060
+# read address 91data 1264095060
+# write address 92data 1411549676
+# read address 92data 1411549676
+# write address 93data 1843993368
+# read address 93data 1843993368
+# write address 94data 943947739
+# read address 94data 943947739
+# write address 95data 1984210012
+# read address 95data 1984210012
+# write address 96data 855636226
+# read address 96data 855636226
+# write address 97data 1749698586
+# read address 97data 1749698586
+# write address 98data 1469348094
+# read address 98data 1469348094
+# write address 99data 1956297539
+# read address 99data 1956297539

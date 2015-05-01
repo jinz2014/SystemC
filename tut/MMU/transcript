@@ -1,0 +1,60 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do run.do 
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	sc_main
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim work.sc_main 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading /share/jinz/Modelsim_examples/tut/MMU/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/tut/MMU/work.sc_main
+# ** Warning: (vsim-4025) The port '/sc_main/testbench/MMU/port_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/sc_main/testbench/Master/port_1' is of an undebuggable type.
+# Start C Debug 
+cdbg debug_on
+# Please wait, starting the C debugger... 
+# 0xffffe410 in ?? () 
+# Attached to vsim PID 19142 
+# The C debugger has started 
+# Auto find bp 
+run -continue
+step
+# Next activity is in 5 ns.
+step
+# Error: RAM write address 966
+# Error: RAM read address 966
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+step
+# Next activity is in 5 ns.
+quit
+# free memory

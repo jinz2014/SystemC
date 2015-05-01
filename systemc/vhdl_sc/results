@@ -1,0 +1,26 @@
+# do run.do 
+# Model Technology ModelSim SE vcom <VERSION> Compiler <DATE>
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity test_ringbuf
+# -- Compiling architecture test_ringbuf_arch of test_ringbuf
+# Model Technology ModelSim SE sccom <VERSION> compiler <DATE>
+# 
+# Exported modules:
+# 	ringbuf
+# Model Technology ModelSim SE sccom <VERSION> compiler <DATE>
+# vsim test_ringbuf 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading <MTI_HOME>/<PLATFORM>/../std.standard
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_1164(body)
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_arith(body)
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_unsigned(body)
+# Loading <MTI_HOME>/<PLATFORM>/../std.textio(body)
+# Loading work.test_ringbuf(test_ringbuf_arch)
+# Loading work/systemc.so
+# Loading work.ringbuf
+# ** NOTICE ** at 99800 ns : Data value not expected.
+# ** RESTORED ** at 202800 ns : Data returned to expected value.

@@ -1,0 +1,29 @@
+purpose: To test an array of indexed port
+
+Design has two blocks mod1(master) and mod2(slave) connected in a multipoint link.
+
+
+          _______________________________________________________
+         |                                                       |
+         |                    TEST BENCH                         |
+         |_______________________________________________________|
+                                   |t
+           ________________________|____________________________
+          |                                                     |                       
+          |                                                     |
+  ________|a_______                                   __________|b_______
+ |                 |outmaster P1              inslave|                   |
+ |                 |---------------------------------|                   |
+ |                 |              |                  |                   |
+ |      MOD 1      |              |                  |        MOD 2      |
+ |                 |inmaster P2   |        inoutslave|                   |
+ |                 |---------------------------------|                   |
+ |_________________|                                 |___________________|
+     
+     
+Array of index port P1 and P2 are defined with 10 members of an address range
+of (0,4). Execution of design is stopped when the index range is exceeded than 
+the declared range.
+
+
+ 

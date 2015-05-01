@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Arguments:
+#   $1  design file pathname
+#   $2  tbsc command line arguments
+
+tbsc $1 $2 $extra_opts --log origrun.log $PURECOV
+tbsc $1 $2 $extra_opts --log $TBLOG $PURECOV

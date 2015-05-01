@@ -1,0 +1,20 @@
+#include "systemc.h"
+
+template <int size>
+SC_MODULE(or_gate)
+{
+  sc_in<sc_bv<size> > a;
+  sc_in<sc_bv<size> > b;
+  sc_out<sc_bv<size> > c;
+
+  void prc_or_gate() {
+    c = a | b;
+  }//this is the process which runs
+  //in concurrent with all other processes
+
+  SC_CTOR(or_gate)
+  {
+    SC_METHOD(prc_or_gate);
+    sensitive << a << b;
+  }
+};

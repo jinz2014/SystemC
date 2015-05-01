@@ -1,0 +1,33 @@
+# do run.do 
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module test_ringbuf
+# 
+# Top level modules:
+# 	test_ringbuf
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# 
+# Exported modules:
+# 	ringbuf
+# 
+# Model Technology ModelSim SE sccom 6.6b compiler 2010.05 May 21 2010
+# vsim -novopt test_ringbuf 
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.18-238.19.1.el5
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.test_ringbuf
+# Loading /share/jinz/Modelsim_examples/systemc/param_passing/vlog_to_sc/work/_sc/linux_gcc-4.3.3/systemc.so
+# Loading /share/jinz/Modelsim_examples/systemc/param_passing/vlog_to_sc/work.ringbuf
+# ** Error: (vsim-6605) sc_get_int_param() failed: parameter 'buffer_size' in module '/test_ringbuf/ring_INST' is not of an integral type.
+# ** Fatal: Fatal SystemC error detected, exiting...
+#    Time: 0 ps  Iteration: 0  Instance: /test_ringbuf/ring_INST/block3 File: test_ringbuf.v
+# FATAL ERROR while loading design
+# Error loading design

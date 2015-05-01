@@ -1,0 +1,13 @@
+%%REG: Printing data in object data
+%%REG: {
+%%REG:   field_1:10
+%%REG:   field_2:255
+%%REG:   payload {
+%%REG:     [0]:0
+%%REG:     [1]:1
+%%REG:     [2]:4
+%%REG:     [3]:9
+%%REG:     [4]:16
+%%REG:   }
+%%REG:   str:my data string
+%%REG: }

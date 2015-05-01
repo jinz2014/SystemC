@@ -1,0 +1,23 @@
+#include "ram.h"
+#include "master.h"
+
+SC_MODULE (top) {
+
+  sc_in_clk clk;
+
+  // module instantiations
+  //ram<int> *m1 = new ram<int> ("RAM", 0, 1000);
+
+  ram<int> *m1;
+  Master *u1;
+  
+  SC_CTOR (top) {
+    m1 = new ram<int>("RAM", 0, 1000);
+    u1 = new Master("bsm");
+    u1->clk         (clk);
+    u1->ram_port    (m1);
+
+  }
+}
+
+

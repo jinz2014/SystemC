@@ -1,0 +1,12 @@
+#!/bin/sh
+
+SIMTYPE=`tb_info SYSTEMC_SIM`
+
+if test "$SIMTYPE" = "NCSC"; then
+  extra_opts="-sconly test --use ncsim hdl_connect.cpp"
+else
+  extra_opts="test.cc"
+fi
+
+tbsc $extra_opts --log $TBLOG $PURECOV
+

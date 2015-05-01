@@ -1,0 +1,91 @@
+# do run.do 
+# Model Technology ModelSim SE vcom DEV Compiler 2003.05 Sep 18 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity control
+# -- Compiling architecture rtl of control
+# -- Compiling entity retrieve
+# -- Compiling architecture rtl of retrieve
+# -- Compiling entity ringbuf
+# -- Compiling architecture rtl of ringbuf
+# -- Loading package textio
+# -- Loading package std_iopak
+# -- Compiling entity store
+# -- Compiling architecture rtl of store
+# 
+# Model Technology ModelSim SE sccom DEV compiler 2003.05 Sep 18 2007
+# 
+# Exported modules:
+# 	test_ringbuf
+# 
+# Model Technology ModelSim SE sccom DEV compiler 2003.05 Sep 18 2007
+# vsim test_ringbuf 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE DEV Sep 18 2007 Linux 2.4.21-32.EL
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /home/gverma/projects/testing/sv_vhdl/tests_systemc/systemc_demo/control/vhdl/work/systemc.so
+# Loading /home/gverma/projects/testing/sv_vhdl/tests_systemc/systemc_demo/control/vhdl/work.test_ringbuf
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ringbuf(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading std_developerskit.std_iopak(body)
+# Loading work.store(rtl)
+# Loading work.control(rtl)
+# Loading work.retrieve(rtl)
+# 1
+# sig1=U
+# sig2=FALSE
+# sig3=UUUU
+# sig4=UUU
+# SC drives sig1=true, sig2=1, sig3=0101, sig4(1)=false
+# sig1=0
+# sig2=FALSE
+# sig3=XXXX
+# sig4=U0U
+# SC drives sig1=false, sig2=X, sig3=1111, sig4(1)=true
+# sig1=1
+# sig2=TRUE
+# sig3=0101
+# sig4=U0U
+# sig1=0
+# sig2=FALSE
+# sig3=1111
+# sig4=U1U
+# SC drives sig1=true, sig2=Z, sig3=0000, sig4(1)=false
+# sig1=1
+# sig2=FALSE
+# sig3=0000
+# sig4=U0U
+# SC drives sig1=true, sig2=1, sig3=0101, sig4(1)=false
+# sig1=1
+# sig2=TRUE
+# sig3=0101
+# sig4=U0U
+# SC drives sig1=false, sig2=X, sig3=1111, sig4(1)=true
+# sig1=0
+# sig2=FALSE
+# sig3=1111
+# sig4=U1U
+# SC drives sig1=true, sig2=Z, sig3=0000, sig4(1)=false
+# sig1=1
+# sig2=FALSE
+# sig3=0000
+# sig4=U0U
+# SC drives sig1=true, sig2=1, sig3=0101, sig4(1)=false
+# sig1=1
+# sig2=TRUE
+# sig3=0101
+# sig4=U0U

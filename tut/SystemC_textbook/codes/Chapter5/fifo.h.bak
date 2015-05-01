@@ -1,0 +1,140 @@
+// File Name : fifo.h
+#ifndef SYSTEMC_H
+#include "systemc.h"
+#endif
+#ifndef SC_XCOM_H
+#include "sc_xcom.h"
+#endif
+#ifndef BUFFER_H
+#include "buffer.h"
+#endif
+SC_MODULE(fifo){
+// ports
+sc_out<int> full;
+sc_out<int> empty;
+sc_inslave<int> Pwrite; // slave port
+sc_outslave<int> Pread; // slave port
+buffer<int> buf; // FIFO buffer
+int item; // buffer item
+// slave methods
+void blockingWrite(){
+if (buf.full() ){
+do {wait();} // wait for sensitive edge of the producer clock
+while( buf.full());	
+// buffer is not full
+// write into buffer
+item = Pwrite; // read from slave port
+cout << "Writing into buffer: item = " << item << endl;
+buf.put(item);
+}
+void blockingRead(){
+cout << "\nfifo:blockingRead called" << endl;
+if (buf.empty()){
+do {wait();} // wait for sensitive edge of the consumer clock
+while (buf.empty() );
+}
+// buffer is not empty
+// read from buffer
+item = buf.get();
+cout << " Item read = " << item << endl;
+Pread = item; // write to slave port
+}
+SC_CTOR(fifo){
+sc_slave( blockingWrite, Pwrite);
+sc_slave ( blockingRead, Pread);
+}
+};
+//
+// producer.h :: producer
+//
+#ifndef SYSTEMC_H
+#include "systemc.h"
+#endif
+#ifndef SC_XCOM_H
+#include "sc_xcom.h"
+#endif
+SC_MODULE(producer){
+// port declaration
+sc_in<int> full;
+sc_outmaster<int> Pout; // refinable port
+sc_in_clk clk;
+// Internal variable
+int val;
+// outmaster process
+void producer_thread(){
+while (true){
+val += 2;
+Pout = val;
+wait(); // wait for pos_edge clock event
+}
+}
+SC_CTOR(producer){
+SC_THREAD(producer_thread);
+sensitive_pos << clk;
+val = 0;
+}
+};
+//
+// consumer.h :: consumer module
+//
+#ifndef SYSTEMC_H
+#include "systemc.h"
+#endif
+#ifndef SC_XCOM_H
+#include "sc_xcom.h"
+#endif
+SC_MODULE(consumer){
+// declare ports
+sc_in<int> empty;
+sc_inmaster<int> Cin;
+sc_in_clk clk;
+// Internal variable
+int x;
+// inmaster process
+void consumerFunc(){
+while (true){
+x = Cin;
+wait(); // wait for pos_edge clk
+}
+}
+SC_CTOR(consumer){
+SC_THREAD(consumerFunc);
+sensitive_pos << clk;
+}
+};
+//
+// top.cc : contains sc_main ; Instantiates FIFO design
+//
+#ifndef SYSTEMC_H
+#include "systemc.h"
+#endif
+#ifndef SC_XCOM_H
+#include "sc_xcom.h"
+#endif
+#include "consumer.h"
+#include "producer.h"
+#include "fifo.h"
+#ifndef BUFFER_H
+#include "buffer.h"
+#endif
+int sc_main(int ac, char *av[] ){
+// declare channels/signals
+sc_link_mp<int> BW;
+sc_link_mp<int> BR;
+// create clocks with diff frequencies
+sc_clock clock1 ("Clock1", 5, 0.5, 0.3,true);
+sc_clock clock2 ("Clock2", 40, 0.5, 0.1,true);
+// instantiate all blocks and connect to channels, signals
+producer p1("Master");
+fifo f1("fifo");
+consumer c1("Slave");
+p1.Pout(BW);
+p1.clk(clock1);
+f1.Pwrite(BW);
+f1.Pread(BR);
+c1.Cin(BR);
+c1.clk(clock2);
+sc_start(100);
+// return zero if no error
+return 0;
+}

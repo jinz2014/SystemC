@@ -1,0 +1,26 @@
+# do run.do 
+# Model Technology ModelSim SE vcom <VERSION> Compiler <DATE>
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package textio
+# -- Compiling entity ringbuf
+# -- Compiling architecture rtl of ringbuf
+# Model Technology ModelSim SE sccom <VERSION> compiler <DATE>
+# 
+# Exported modules:
+# 	test_ringbuf
+# Model Technology ModelSim SE sccom <VERSION> compiler <DATE>
+# vsim test_ringbuf 
+# Loading work/systemc.so
+# Loading work.test_ringbuf
+# Loading <MTI_HOME>/<PLATFORM>/../std.standard
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_1164(body)
+# Loading <MTI_HOME>/<PLATFORM>/../ieee.std_logic_arith(body)
+# Loading work.ringbuf(rtl)
+# int_param=4
+# real_param=2.600000e+00
+# str_param=Hello
+# bool_param=FALSE
+# char_param=Y
+# bit_param=0
+# bv_param=010

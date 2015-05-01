@@ -1,0 +1,52 @@
+//By chenxi,2003.3.29.all rights reserved
+//Top.h
+#include "systemc.h"       //SystemC header
+#include "DataGenerator.h" // For  Gen_a and Gen_b
+#include "Control.h"       
+#include "ALU.h"           
+#include "OperatorGenerator.h"
+#include "DisplayResult.h"
+
+SC_MODULE(Top)   {
+  Control             *Ctrl1;
+  DataGenerator       *Gen_a,*Gen_b;
+  OperatorGenerator   *OpGen1;
+  ALU                 *ALU1;
+  DisplayResult       *DispResult1; 
+  sc_in_clk           clk;
+  sc_signal<sc_uint<32> > a, b,result;
+  sc_signal<sc_uint<4> >  c;//16 operator types supported
+  sc_signal<bool>         operator_ctrl,operand_ctrla,operand_ctrlb;
+
+  //Constructor
+  SC_CTOR(Top) {
+
+  Ctrl1 = new Control("Ctrl1");
+  Ctrl1->clk(clk);           Ctrl1->op(operator_ctrl);          
+  Ctrl1->or_b(operand_ctrlb);Ctrl1->or_a(operand_ctrla);
+
+  Gen_a = new DataGenerator("Gen_a");
+  Gen_a->ctrl(operand_ctrla);Gen_a->data_out(a);
+  Gen_b = new DataGenerator("Gen_b");
+  Gen_b->ctrl(operand_ctrlb);Gen_b->data_out(b);
+  
+  OpGen1 = new OperatorGenerator("OpGen1"); 
+  OpGen1->ctrl(operator_ctrl);OpGen1->op_type(c);
+
+  ALU1 = new ALU("ALU1");
+  ALU1->a(a);ALU1->b(b);ALU1->c(c);ALU1->result(result);
+
+  DispResult1 = new DisplayResult("DispResult1");
+  DispResult1->result(result);
+  }
+
+  //Destructor
+  ~Top(){
+  if(Ctrl1)       {delete Ctrl1;       Ctrl1 =0;     }
+  if(Gen_a)       {delete Gen_a;       Gen_a =0;     }
+  if(Gen_b)       {delete Gen_b;       Gen_b =0;     }
+  if(OpGen1)      {delete OpGen1;      OpGen1=0;     }
+  if(ALU1)        {delete ALU1;        ALU1  =0;     }
+  if(DispResult1) {delete DispResult1; DispResult1=0;}
+  }
+}

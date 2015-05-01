@@ -1,0 +1,8 @@
+checks the basic RPC functionality in a master slave 
+connectivity through a channel.
+
+master calls slave
+inmaster calls out/inoutslave
+outmaster calls in/inoutslave
+inoutmaster	calls out/inoutslave when a value is written to it
+inoutmaster calls in/inoutslave when a value is read from it.
